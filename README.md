@@ -46,6 +46,12 @@ Dream Guard is an innovative biomedical device designed to improve sleep quality
     <li><strong>Additional Components:</strong> Real Time Clock (RTC), BMS PCM Battery Protection Board</li>
 </ul>
 
+## PCB and Enclosure
+![PCB and Enclosure](images/PCB_and_Enclosure.png)
+
+## Final Product
+![Final Product](images/Final_product.png)
+
 ## Contributors
 - [Jayamadu Gammune](https://github.com/JayxTG)
 - [Rebecca Fernando](https://github.com/rnsfernando)
