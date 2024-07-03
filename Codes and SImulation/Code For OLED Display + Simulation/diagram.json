@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pushbutton",
+      "id": "pushbutton1",
+      "top": 110,
+      "left": 300,
+      "attrs": { "label": "Hours", "color": "green" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "pushbutton2",
+      "top": 110,
+      "left": 380,
+      "attrs": { "label": "Minutes", "color": "green" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "pushbutton3",
+      "top": 110,
+      "left": 460,
+      "attrs": { "label": "Alarm", "color": "red" }
+    },
+    { "type": "wokwi-ds1307", "id": "ds1307", "top": 235.82, "left": 283.79, "attrs": {} },
+    { "type": "wokwi-arduino-uno", "id": "arduino", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 210.13,
+      "left": 513.12,
+      "attrs": { "color": "red", "flip": "1" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 291.71,
+      "left": 468.68,
+      "attrs": { "value": "330" }
+    },
+    { "type": "board-ssd1306", "id": "oled1", "top": -23.48, "left": 376.63, "attrs": {} }
+  ],
+  "connections": [
+    [ "pushbutton1:1.l", "arduino:A0", "green", [ "h-4", "v0", "*", "v20" ] ],
+    [ "pushbutton1:2.l", "arduino:GND.2", "black", [ "*", "v34" ] ],
+    [ "pushbutton2:1.l", "arduino:A1", "gray", [ "h-4", "v0", "*", "v24" ] ],
+    [ "pushbutton2:2.l", "arduino:GND.2", "black", [ "*", "v34" ] ],
+    [ "pushbutton3:1.l", "arduino:A2", "purple", [ "h-4", "v0", "*", "v28" ] ],
+    [ "pushbutton3:2.l", "arduino:GND.2", "black", [ "*", "v34" ] ],
+    [ "ds1307:GND", "arduino:GND.2", "black", [] ],
+    [ "ds1307:5V", "arduino:5V", "red", [] ],
+    [ "ds1307:SDA", "arduino:A4", "blue", [] ],
+    [ "ds1307:SCL", "arduino:A5", "gold", [] ],
+    [ "arduino:A3", "r1:1", "green", [ "v0" ] ],
+    [ "r1:2", "led1:A", "green", [ "v0" ] ],
+    [ "led1:C", "arduino:GND.3", "green", [ "v122.18", "h-360.95" ] ],
+    [ "oled1:GND", "arduino:GND.2", "black", [ "v-27.76", "h-143", "v454.44", "h232.97" ] ],
+    [ "oled1:VCC", "arduino:5V", "red", [ "v-15.29", "h-131.36", "v428.56", "h200.38" ] ],
+    [ "oled1:SDA", "arduino:A4", "green", [ "v0" ] ],
+    [ "oled1:SCL", "arduino:A5", "green", [ "v-24.06", "h2.45" ] ]
+  ],
+  "dependencies": {}
+}
