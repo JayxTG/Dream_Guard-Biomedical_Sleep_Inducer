@@ -11,7 +11,7 @@ Dream Guard is an innovative biomedical device designed to improve sleep quality
 
 <h1>Dream Guard Project</h1>
 
-![Logo](Testing/Code%20Logo.jpg)
+<img src="Testing/Code%20Logo.jpg" alt="Logo" width="200"/>
 
 <h2>Project Description</h2>
 <p>
