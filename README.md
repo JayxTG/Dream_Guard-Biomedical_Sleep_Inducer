@@ -11,6 +11,8 @@ Dream Guard is an innovative biomedical device designed to improve sleep quality
 
 <h1>Dream Guard Project</h1>
 
+![Logo](testing/Code Logo.jpg)
+
 <h2>Project Description</h2>
 <p>
     Dream Guard is a biomedical sleep inducer designed to improve the quality of sleep for individuals suffering from insomnia. The device uses non-invasive magnetic field technology to promote sleep, offering a safer alternative to medication. The project is developed by a team of four engineering undergraduates from the University of Moratuwa, who have combined their expertise to create a portable, efficient, and user-friendly solution to address sleep disorders.
