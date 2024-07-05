@@ -58,7 +58,7 @@ Dream Guard is an innovative biomedical device designed to improve sleep quality
 - [Jayamadu Gammune](https://github.com/JayxTG)
 - [Rebecca Fernando](https://github.com/rnsfernando)
 - [Tashin Kavishan](https://github.com/kavishanGT)
-- [Charles Jhone Peter](https://github.com/Charlie174)
+- [Charles John Peter](https://github.com/Charlie174)
 
 </body>
 </html>
